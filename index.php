@@ -1,5 +1,7 @@
 <?php
 
+$time = date("H:i"); // GMT
+
 define("API_KEY", "XXX:XXXX");
 $channel = '-100XXXX';
 
@@ -17,8 +19,6 @@ function bot($method, $datas = [])
         return json_decode($res);
     }
 }
-
-$time = date("H:i"); // GMT
 
 if ($time == '20:29') {
     bot("sendMessage", [
