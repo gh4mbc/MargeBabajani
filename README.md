@@ -1,3 +1,4 @@
 # mbc
 این کد، کد رباتی که در کانال اعلام وضعیت مرگ باباجانی پست می‌گذارد است.
-t.me/MargeBabajani
+
+https://t.me/MargeBabajani
